@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="2" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="83.964">
+    <testcase classname="Homepage and Appreal and Gifts Functionality" name="Verify Homepage Assertions and Navigate to Appreal and Gifts Functionality Page" time="49.786">
+        <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;extentReports.ExtentReportData.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[Given I launch the browser and go to the URL................................passed
+Then I should see the homepage title........................................passed
+And I should see the logo displayed.........................................passed
+And I should see the Promo Code box.........................................passed
+When I click on the Shop Tests button.......................................passed
+When I am on the Shop Tests page............................................passed
+And I click on the Appreal and Gifts section................................passed
+And I should see the T Shirt image section displayed........................passed
+Then I should see the name and pricing displayed............................passed
+When I click on the View More button........................................passed
+Then I should see the T Shirt Details Page..................................passed
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "extentReports.ExtentReportData.driver" is null
+	at extentReports.ExtentReportData.endTest(ExtentReportData.java:54)
+	at stepDefinition.MatriclanTestKitDefinition.close_browser(MatriclanTestKitDefinition.java:65)
+]]></failure>
+    </testcase>
+    <testcase classname="Homepage and Shop Tests Functionality" name="Verify Homepage Assertions and Navigate to Shop Tests Page" time="33.98">
+        <failure message="Cannot invoke &quot;org.openqa.selenium.WebDriver.quit()&quot; because &quot;extentReports.ExtentReportData.driver&quot; is null" type="java.lang.NullPointerException"><![CDATA[Given I launch the browser and go to the URL................................passed
+Then I should see the homepage title........................................passed
+And I should see the logo displayed.........................................passed
+And I should see the navigation menu........................................passed
+When I click on the Shop Tests button.......................................passed
+When I am on the Shop Tests page............................................passed
+And I should see the test categories displayed..............................passed
+And I should see the view more section......................................passed
+When I should be on the View More page......................................passed
+
+StackTrace:
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "extentReports.ExtentReportData.driver" is null
+	at extentReports.ExtentReportData.endTest(ExtentReportData.java:54)
+	at stepDefinition.MatriclanTestKitDefinition.close_browser(MatriclanTestKitDefinition.java:65)
+]]></failure>
+    </testcase>
+</testsuite>
